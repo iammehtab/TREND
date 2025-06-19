@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Regular Fit Coat",
+    "image": "/website/Myimage/t-shirt2.avif",
+    "price": "₹1899",
+    "description": "A high-quality, stylish coat for everyday wear.",
+    "colors": {
+      "black": {
+        "image": "/website/Myimage/black1.avif",
+        "hex": "#000000"
+      },
+      "white": {
+        "image": "/website/Myimage/white1.avif",
+        "hex": "#FFFFFF"
+      }
+    }
+  },
+  {
+    "name": "Loose Fit T-shirt",
+    "image": "/website/Myimage/t-sheirt3.avif",
+    "price": "₹899",
+    "description": "A high-quality, stylish regular T-shirt for men.",
+    "colors": {
+      "blue": {
+        "image": "/website/Myimage/t-shirt4.avif",
+        "hex": "#0B0B45"
+      }
+    }
+  }
+]

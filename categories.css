@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit&family=Patua+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Distressed&family=Tagesschrift&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+  overflow-x: hidden;
+}
+.logo a {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  animation: logoanim 1s ease-in-out;
+  text-decoration: none;
+}
+.logo a:visited {
+  text-decoration: none;
+  color: black;
+}
+.logo a:hover {
+  color: #6fbcf8;
+}
+@keyframes logoanim {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: linear-gradient(to right, #548eba, #0562aa);
+  color: rgb(0, 0, 0);
+  animation: logoanim 1s ease-in-out;
+}
+#navbarlinks {
+  list-style: none;
+  display: flex;
+  gap: 4.5rem;
+  position: relative;
+  left: 10px;
+}
+#navbarlinks a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  transition: color 0.3s ease;
+  font-size: 20px;
+}
+#navbarlinks a:hover {
+  color: #279df8;
+}
+#nav-button button {
+  padding: 7px 13px;
+  border-radius: 15px;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+#nav-button button:hover {
+  background-color: #6fbcf8;
+  color: white;
+  transition: all 0.3s ease;
+}
+.hero-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 90px;
+}
+.hero-wrapper img {
+  border: 2px solid rgb(255, 255, 255);
+  height: auto;
+  width: 700px;
+}
+.hero-wrapper h3 {
+  font-style: italic;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  margin-top: 150px;
+  font-size: 35px;
+  z-index: 1;
+  margin-left: -300px;
+  color: #0e73c0;
+}
+.heading {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  border: 2px solid black;
+}
+.filter-image img {
+  height: 300px;
+  border-radius: 20px;
+  border: 2px solid black;
+  flex: 0 0 auto;
+  transition: transform 0.3s ease;
+}
+.container {
+  padding: 5px 10px;
+  margin: 20px 60px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  gap: 3rem;
+  overflow-x: auto;
+  scrollbar-color: #00638d #ddd;
+  scroll-behavior: smooth;
+  white-space: nowrap;
+}
+.container h5 {
+  font-size: 20px;
+  padding: 5px;
+}
+.rating {
+  font-size: 17px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.price {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 10px;
+  gap: 10px;
+}
+.price .discount {
+  text-decoration: line-through;
+  color: grey;
+}
+.add-to-cart {
+  padding: 8px 60px;
+  background-color: #4996d1;
+  color: white;
+  border-radius: 5px;
+}
+.add-to-cart:hover {
+  background-color: #0562aa;
+}
+.filter-image img:hover {
+  transform: scale(0.9);
+}
+.size-options {
+  margin-top: 8px;
+  display: flex;
+  gap: 8px;
+}
+
+.size-circle {
+  background-color: #fff;
+  border: 1px solid #000;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.size-circle:hover {
+  background-color: #000;
+  color: white;
+}
+
+.cart img {
+  height: 25px;
+  margin-top: 5px;
+}
+.cart {
+  position: relative;
+}
+
+#cart-count {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background: rgb(6, 2, 2);
+  color: white;
+  border-radius: 50%;
+  padding: 3px 7px;
+  font-size: 12px;
+}

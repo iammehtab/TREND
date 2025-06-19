@@ -1,0 +1,505 @@
+{
+  "products": [
+    {
+      "id": 0,
+      "name": "Regular Fit Coat",
+      "image": "/website/Myimage/t-shirt2.avif",
+      "price": "₹1899",
+      "description": "A high-quality, stylish coat for everyday wear.",
+      "colors": [
+        {
+          "name": "black",
+          "image": "/website/Myimage/black1.avif",
+          "hex": "#000000"
+        },
+        {
+          "name": "pich_pink",
+          "image": "/website/Myimage/t-shirt2.avif",
+          "hex": "#FADADD"
+        },
+        {
+          "name": "white",
+          "image": "/website/Myimage/white1.avif",
+          "hex": "#ffff"
+        },
+        {
+          "name": "light_blue",
+          "image": "https://image.hm.com/assets/hm/9e/c7/9ec7545780c0d31e848058bd73500d65616fc052.jpg?imwidth=1260",
+          "hex": "#abdbe3"
+        },
+        {
+          "name": "blue",
+          "image": "/website/Myimage/t-shirt4.avif",
+          "hex": "#0B0B45"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Loose Fit T-shirt",
+      "image": "/website/Myimage/t-sheirt3.avif",
+      "price": "₹899",
+      "description": "A high-quality, stylish regular T-shirt for men.",
+      "colors": [
+        {
+          "name": "b",
+          "image": "https://image.hm.com/assets/hm/f6/85/f685919788fd3a6808de2d81e0bfbb1646bdfbaf.jpg?imwidth=1260",
+          "hex": "#90EE90"
+        },
+        {
+          "name": "grey",
+          "image": "https://image.hm.com/assets/hm/ee/da/eedaed30f0c07a4eb524f141b4ddc99b37939e50.jpg?imwidth=1260",
+          "hex": "#45443a"
+        },
+        {
+          "name": "yellow",
+          "image": "https://image.hm.com/assets/hm/27/c9/27c92c66701f0a070e78263115973f177e7e5e7c.jpg?imwidth=1260",
+          "hex": "#ffd60a"
+        },
+        {
+          "name": "brown",
+          "image": "/website/Myimage/blue1.avif",
+          "hex": "#964B00"
+        },
+        {
+          "name": "blue",
+          "image": "/website/Myimage/t-shirt4.avif",
+          "hex": "#0B0B45"
+        },
+        {
+          "name": "white",
+          "image": "/website/Myimage/white1.avif",
+          "hex": "#FFFFFF"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Loose Fit T-shirt",
+      "image": "/website/Myimage/t-sheirt3.avif",
+      "price": "₹899",
+      "description": "A high-quality, stylish regular T-shirt for men.",
+      "colors": [
+        {
+          "name": "b",
+          "image": "https://image.hm.com/assets/hm/f6/85/f685919788fd3a6808de2d81e0bfbb1646bdfbaf.jpg?imwidth=1260",
+          "hex": "#90EE90"
+        },
+        {
+          "name": "grey",
+          "image": "https://image.hm.com/assets/hm/ee/da/eedaed30f0c07a4eb524f141b4ddc99b37939e50.jpg?imwidth=1260",
+          "hex": "#45443a"
+        },
+        {
+          "name": "yellow",
+          "image": "https://image.hm.com/assets/hm/27/c9/27c92c66701f0a070e78263115973f177e7e5e7c.jpg?imwidth=1260",
+          "hex": "#ffd60a"
+        },
+        {
+          "name": "brown",
+          "image": "/website/Myimage/blue1.avif",
+          "hex": "#964B00"
+        },
+        {
+          "name": "blue",
+          "image": "/website/Myimage/t-shirt4.avif",
+          "hex": "#0B0B45"
+        },
+        {
+          "name": "white",
+          "image": "/website/Myimage/white1.avif",
+          "hex": "#FFFFFF"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Loose Fit T-shirt",
+      "image": "/website/Myimage/t-sheirt3.avif",
+      "price": "₹899",
+      "description": "A high-quality, stylish regular T-shirt for men.",
+      "colors": [
+        {
+          "name": "b",
+          "image": "https://image.hm.com/assets/hm/f6/85/f685919788fd3a6808de2d81e0bfbb1646bdfbaf.jpg?imwidth=1260",
+          "hex": "#90EE90"
+        },
+        {
+          "name": "grey",
+          "image": "https://image.hm.com/assets/hm/ee/da/eedaed30f0c07a4eb524f141b4ddc99b37939e50.jpg?imwidth=1260",
+          "hex": "#45443a"
+        },
+        {
+          "name": "yellow",
+          "image": "https://image.hm.com/assets/hm/27/c9/27c92c66701f0a070e78263115973f177e7e5e7c.jpg?imwidth=1260",
+          "hex": "#ffd60a"
+        },
+        {
+          "name": "brown",
+          "image": "/website/Myimage/blue1.avif",
+          "hex": "#964B00"
+        },
+        {
+          "name": "blue",
+          "image": "/website/Myimage/t-shirt4.avif",
+          "hex": "#0B0B45"
+        },
+        {
+          "name": "white",
+          "image": "/website/Myimage/white1.avif",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "Garfield",
+          "image": "/website/Myimage/t-sheirt5.avif",
+          "hex": "#FFF4CE"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Loose Fit T-shirt",
+      "image": "/website/Myimage/t-sheirt3.avif",
+      "price": "₹899",
+      "description": "A high-quality, stylish regular T-shirt for men.",
+      "colors": [
+        {
+          "name": "b",
+          "image": "https://image.hm.com/assets/hm/f6/85/f685919788fd3a6808de2d81e0bfbb1646bdfbaf.jpg?imwidth=1260",
+          "hex": "#90EE90"
+        },
+        {
+          "name": "grey",
+          "image": "https://image.hm.com/assets/hm/ee/da/eedaed30f0c07a4eb524f141b4ddc99b37939e50.jpg?imwidth=1260",
+          "hex": "#45443a"
+        },
+        {
+          "name": "yellow",
+          "image": "https://image.hm.com/assets/hm/27/c9/27c92c66701f0a070e78263115973f177e7e5e7c.jpg?imwidth=1260",
+          "hex": "#ffd60a"
+        },
+        {
+          "name": "brown",
+          "image": "/website/Myimage/blue1.avif",
+          "hex": "#964B00"
+        },
+        {
+          "name": "blue",
+          "image": "/website/Myimage/t-shirt4.avif",
+          "hex": "#0B0B45"
+        },
+        {
+          "name": "white",
+          "image": "/website/Myimage/white1.avif",
+          "hex": "#FFFFFF"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Loose Fit T-shirt",
+      "image": "/website/Myimage/t-sheirt3.avif",
+      "price": "₹899",
+      "description": "A high-quality, stylish regular T-shirt for men.",
+      "colors": [
+        {
+          "name": "b",
+          "image": "https://image.hm.com/assets/hm/f6/85/f685919788fd3a6808de2d81e0bfbb1646bdfbaf.jpg?imwidth=1260",
+          "hex": "#90EE90"
+        },
+        {
+          "name": "grey",
+          "image": "https://image.hm.com/assets/hm/ee/da/eedaed30f0c07a4eb524f141b4ddc99b37939e50.jpg?imwidth=1260",
+          "hex": "#45443a"
+        },
+        {
+          "name": "yellow",
+          "image": "https://image.hm.com/assets/hm/27/c9/27c92c66701f0a070e78263115973f177e7e5e7c.jpg?imwidth=1260",
+          "hex": "#ffd60a"
+        },
+        {
+          "name": "brown",
+          "image": "/website/Myimage/blue1.avif",
+          "hex": "#964B00"
+        },
+        {
+          "name": "blue",
+          "image": "/website/Myimage/t-shirt4.avif",
+          "hex": "#0B0B45"
+        },
+        {
+          "name": "white",
+          "image": "/website/Myimage/white1.avif",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "Bone",
+          "image": "/website/Myimage/t-shirt6.avif",
+          "hex": "#F5F5DC"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Regular Fit Oxford shirt",
+      "image": "/website/Myimage/shirt1.avif",
+      "price": "₹899",
+      "description": "A high-quality, stylish regular T-shirt for men.",
+      "colors": [
+        {
+          "name": "blue",
+          "image": "/website/Myimage/shirt1.avif",
+          "hex": "#add8e6"
+        },
+        {
+          "name": "sagegreen",
+          "image": "https://image.hm.com/assets/hm/68/57/68574ee51428689db0936e61f16faf3535b96422.jpg?imwidth=1260",
+          "hex": "#B2AC88"
+        },
+        {
+          "name": "black",
+          "image": "https://image.hm.com/assets/hm/58/83/5883e8fe3c0d27f6b4b2aafc7f589c0a54b38696.jpg?imwidth=1260",
+          "hex": "#000000"
+        },
+        {
+          "name": "white",
+          "image": "/website/Myimage/shirt2.avif",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "lightbeige",
+          "image": "https://image.hm.com/assets/hm/0e/6c/0e6c1cb540cf512e3ba446fcb3e40a84eaea5456.jpg?imwidth=1260f",
+          "hex": "#F5F5DC"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Regular Fit Oxford shirt",
+      "image": "/website/Myimage/shirt1.avif",
+      "price": "₹899",
+      "description": "A high-quality, stylish regular T-shirt for men.",
+      "colors": [
+        {
+          "name": "blue",
+          "image": "/website/Myimage/shirt1.avif",
+          "hex": "#add8e6"
+        },
+        {
+          "name": "sagegreen",
+          "image": "https://image.hm.com/assets/hm/68/57/68574ee51428689db0936e61f16faf3535b96422.jpg?imwidth=1260",
+          "hex": "#B2AC88"
+        },
+        {
+          "name": "black",
+          "image": "https://image.hm.com/assets/hm/58/83/5883e8fe3c0d27f6b4b2aafc7f589c0a54b38696.jpg?imwidth=1260",
+          "hex": "#000000"
+        },
+        {
+          "name": "white",
+          "image": "/website/Myimage/shirt2.avif",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "lightbeige",
+          "image": "https://image.hm.com/assets/hm/0e/6c/0e6c1cb540cf512e3ba446fcb3e40a84eaea5456.jpg?imwidth=1260f",
+          "hex": "#F5F5DC"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Regular Fit Oxford shirt",
+      "image": "/website/Myimage/shirt1.avif",
+      "price": "₹899",
+      "description": "A high-quality, stylish regular T-shirt for men.",
+      "colors": [
+        {
+          "name": "blue",
+          "image": "/website/Myimage/shirt1.avif",
+          "hex": "#add8e6"
+        },
+        {
+          "name": "sagegreen",
+          "image": "https://image.hm.com/assets/hm/68/57/68574ee51428689db0936e61f16faf3535b96422.jpg?imwidth=1260",
+          "hex": "#B2AC88"
+        },
+        {
+          "name": "black",
+          "image": "https://image.hm.com/assets/hm/58/83/5883e8fe3c0d27f6b4b2aafc7f589c0a54b38696.jpg?imwidth=1260",
+          "hex": "#000000"
+        },
+        {
+          "name": "white",
+          "image": "/website/Myimage/shirt2.avif",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "lightbeige",
+          "image": "https://image.hm.com/assets/hm/0e/6c/0e6c1cb540cf512e3ba446fcb3e40a84eaea5456.jpg?imwidth=1260f",
+          "hex": "#F5F5DC"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Regular Fit Short-sleeved linen-blend shirt",
+      "image": "/website/Myimage/shirt4.avif",
+      "price": "₹1899",
+      "description": "A high-quality, stylish regular shirt for men.",
+      "colors": [
+        {
+          "name": "beige",
+          "image": "/website/Myimage/shirt4.avif",
+          "hex": "#F5F5DC"
+        },
+        {
+          "name": "black",
+          "image": "https://image.hm.com/assets/hm/8b/b4/8bb455cec07ff8d5a4831a8fac795525089e11fa.jpg?imwidth=1260",
+          "hex": "#000000"
+        },
+        {
+          "name": "white",
+          "image": "https://image.hm.com/assets/hm/7f/45/7f455f801a883e5d69183388dd6da67d88c605ab.jpg?imwidth=1260",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "brown",
+          "image": "https://image.hm.com/assets/hm/40/44/4044ee40633576057e9f47e4b0897c0f1ffdb55a.jpg?imwidth=1260",
+          "hex": "#964B00"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Regular Fit Short-sleeved linen-blend shirt",
+      "image": "/website/Myimage/shirt4.avif",
+      "price": "₹1899",
+      "description": "A high-quality, stylish regular shirt for men.",
+      "colors": [
+        {
+          "name": "beige",
+          "image": "/website/Myimage/shirt4.avif",
+          "hex": "#F5F5DC"
+        },
+        {
+          "name": "black",
+          "image": "https://image.hm.com/assets/hm/8b/b4/8bb455cec07ff8d5a4831a8fac795525089e11fa.jpg?imwidth=1260",
+          "hex": "#000000"
+        },
+        {
+          "name": "white",
+          "image": "https://image.hm.com/assets/hm/7f/45/7f455f801a883e5d69183388dd6da67d88c605ab.jpg?imwidth=1260",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "brown",
+          "image": "https://image.hm.com/assets/hm/40/44/4044ee40633576057e9f47e4b0897c0f1ffdb55a.jpg?imwidth=1260",
+          "hex": "#964B00"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Regular Jeans",
+      "image": "/website/Myimage/jeans1.avif",
+      "price": "₹1899",
+      "description": "A high-quality, stylish regular jeans for men.",
+      "colors": [
+        {
+          "name": "blue",
+          "image": "https://image.hm.com/assets/hm/84/44/84441bdedd6893e6f29ecd2141f5dd3c92a0bf7f.jpg?imwidth=1260",
+          "hex": "#224C98"
+        },
+        {
+          "name": "black",
+          "image": "/website/Myimage/jeans1.avif",
+          "hex": "#000000"
+        },
+        {
+          "name": "grey",
+          "image": "/website/Myimage/jeans2.avif",
+          "hex": "#808080"
+        },
+        {
+          "name": "darkblue",
+          "image": "/website/Myimage/jeans3.avif",
+          "hex": "#002D72"
+        },
+        {
+          "name": "brown",
+          "image": "/website/Myimage/jeans8.avif",
+          "hex": "#964B00"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Regular Jeans",
+      "image": "/website/Myimage/jeans1.avif",
+      "price": "₹1899",
+      "description": "A high-quality, stylish regular jeans for men.",
+      "colors": [
+        {
+          "name": "blue",
+          "image": "https://image.hm.com/assets/hm/84/44/84441bdedd6893e6f29ecd2141f5dd3c92a0bf7f.jpg?imwidth=1260",
+          "hex": "#002D72"
+        },
+        {
+          "name": "black",
+          "image": "/website/Myimage/jeans1.avif",
+          "hex": "#000000"
+        },
+        {
+          "name": "grey",
+          "image": "/website/Myimage/jeans2.avif",
+          "hex": "#808080"
+        },
+        {
+          "name": "darkblue",
+          "image": "/website/Myimage/jeans3.avif",
+          "hex": "#002D72"
+        },
+        {
+          "name": "brown",
+          "image": "/website/Myimage/jeans8.avif",
+          "hex": "#964B00"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Regular Trouser",
+      "image": "/website/Myimage/trouser2.avif",
+      "price": "₹1899",
+      "description": "Regular Fit Linen-blend trousers",
+      "colors": [
+        {
+          "name": "cream",
+          "image": "/website/Myimage/trouser2.avif",
+          "hex": "#FFfdd0"
+        },
+        {
+          "name": "black",
+          "image": "https://image.hm.com/assets/hm/b0/43/b043f0f0eeaba1bcf1ea0d7937bfe6bd48925a05.jpg?imwidth=1260",
+          "hex": "#000000"
+        },
+        {
+          "name": "Sagegreen",
+          "image": "https://image.hm.com/assets/hm/c6/fa/c6faaf52216314c949eb80d44c3c5e3bddaf388c.jpg?imwidth=1260",
+          "hex": "#9CAF88"
+        },
+        {
+          "name": "darkblue",
+          "image": "/website/Myimage/jeans3.avif",
+          "hex": "#002D72"
+        },
+        {
+          "name": "brown",
+          "image": "/website/Myimage/jeans8.avif",
+          "hex": "#964B00"
+        }
+      ]
+    }
+  ]
+}

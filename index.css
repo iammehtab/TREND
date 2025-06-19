@@ -1,0 +1,425 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Patua+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Distressed&family=Tagesschrift&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "playfair display", sans-serif;
+  font-size: 25px;
+  overflow-x: hidden;
+}
+.logo a {
+  font-family: "playfair display", sans-serif;
+  font-size: 30px;
+  animation: logoanim 1s ease-in-out;
+  text-decoration: none;
+}
+.logo a:visited {
+  text-decoration: none;
+  color: black;
+}
+.logo a:hover {
+  color: #6fbcf8;
+}
+@keyframes logoanim {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.hero-wrapper {
+  background: url(hero.jpg) no-repeat;
+  background-size: cover;
+  background-position: center top;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  background-color: black;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  animation: logoanim 1s ease-in-out;
+}
+#navbarlinks {
+  list-style: none;
+  display: flex;
+  gap: 4.5rem;
+  position: relative;
+  left: 10px;
+}
+#navbarlinks a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  transition: color 0.3s ease;
+  font-size: 20px;
+}
+#navbarlinks a:hover {
+  color: #6fbcf8;
+}
+#nav-button button {
+  padding: 7px 13px;
+  border-radius: 15px;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  list-style: none;
+  text-decoration: none;
+}
+#nav-button button:hover {
+  background-color: #6fbcf8;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.banner-text {
+  z-index: 1;
+  position: relative;
+  bottom: 400px;
+}
+.banner-text h1 {
+  font-size: 45px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  color: #1b94f1;
+}
+.banner-text p {
+  font-size: 20px;
+  margin-left: 30px;
+  color: #2c6a9a;
+}
+.banner-text button {
+  padding: 8px 12px;
+  margin: 30px 200px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.banner-text button:hover {
+  background-color: #6fbcf8;
+}
+.banner-text h5 {
+  margin: 15px 100px;
+  color: #1492cd;
+}
+/*About us */
+
+.about-us {
+  padding: 10px 40px;
+}
+.about-container {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 20px 0px;
+  flex-wrap: wrap;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 20px;
+  animation: fadein 1s ease-in-out;
+}
+.about-text {
+  flex: 1;
+  margin: 20px 40px;
+  position: relative;
+}
+.about-text h2 {
+  font-size: 40px;
+  margin-bottom: 200px;
+  animation: fadein 1s ease-in-out;
+}
+.about-text p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: -120px;
+  animation: fadein 1s ease-in-out;
+}
+
+@keyframes fadein {
+  0% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(-75) px;
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+/* Trending Section */
+.Best-sell {
+  padding: 60px 40px;
+  background-color: #f6f6f6;
+  font-family: "Lato", sans-serif;
+}
+
+.Best-sell > h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: "playfair display", sans-serif;
+}
+
+.prod-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.prod-details {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transform-style: preserve-3d;
+}
+
+.prod-details:hover {
+  transform: scale(1.05) translateZ(20px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.prod-details img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.prod-details h5 {
+  font-size: 18px;
+  padding: 10px 15px;
+  margin: 0;
+}
+
+.prod-rate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.rating {
+  color: #f5b301; /* star color */
+}
+
+.price {
+  font-weight: bold;
+  color: #333;
+}
+
+/*Trending*/
+.trending {
+  padding: 60px 40px;
+  background-color: #f6f6f6;
+  font-family: "Lato", sans-serif;
+}
+.trending > h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  font-family: "playfair display", sans-serif;
+  text-align: center;
+}
+.trend-prod-detail {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transform-style: preserve-3d;
+}
+.trend-prod-detail:hover {
+  transform: scale(1.05) translateZ(20px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.trend-prod {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0px 110px;
+}
+
+.trend-prod-detail img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+}
+.trend-prod-detail h5 {
+  font-size: 18px;
+  padding: 10px 15px;
+  margin: 0;
+}
+
+.deals-banner {
+  width: 100%;
+  background: url(/website/Myimage/Myban3.jpg) no-repeat center center/cover;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: #fff;
+  position: relative;
+  background-position: center top;
+}
+.deals-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+.deals-content {
+  position: relative;
+  z-index: 1;
+  color: #ffd700;
+}
+.deals-content h2 {
+  font-size: 40px;
+  margin-bottom: 5px;
+  margin-left: 500px;
+}
+.countdown {
+  font-size: 30px;
+  margin-bottom: 5px;
+  margin-left: 500px;
+}
+.promo {
+  font-size: 30px;
+  margin-left: 500px;
+}
+
+.testimonial-section {
+  padding: 40px 20px;
+  background-color: aliceblue;
+}
+.testimonial-section > h2 {
+  font-size: 40px;
+  margin-bottom: 5px;
+  margin-left: 400px;
+  margin: 0px 0px 20px 370px;
+}
+.testimonial-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.testimonial-card {
+  flex: 0 0 28%;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  padding: 20px;
+  animation: fadein 1s ease-in-out;
+}
+.testimonial-card:hover {
+  transform: scale(1.01) translate(5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.testimonial-card img {
+  width: 110px;
+  height: 110px;
+  border-radius: 60px;
+  margin-bottom: 20px;
+  filter: drop-shadow(0px 0px 15px #2c6a9a);
+}
+.testimonial-card p {
+  font-family: "Times New Roman", serif;
+  font-style: italic;
+}
+.footer-tag {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 40px;
+  background-color: #f5f5f5;
+  flex-wrap: wrap;
+}
+.footer-tag > .logo {
+  margin-bottom: -20px;
+  position: relative;
+}
+
+.left-side p {
+  font-size: 22px;
+  line-height: 1.6;
+  max-width: 300px;
+  font-style: italic;
+  text-align: left;
+  margin-top: 60px;
+  margin-left: -200px;
+}
+
+.middle h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.middle ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.middle li {
+  margin: 10px 0;
+}
+
+.middle li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.middle li a:hover {
+  color: #1b94f1;
+  text-decoration: underline;
+}
+
+.footer-right {
+  margin-top: 10px;
+}
+.social-media {
+  position: relative; /* or 'relative' based on your layout */
+  bottom: 90px;
+  left: 900px;
+  display: flex;
+  gap: 40px;
+  font-size: 24px;
+}
+
+.social-media i {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.social-media i:hover {
+  color: #1b94f1; /* or your theme color */
+}
+.social-media a {
+  color: black;
+}
