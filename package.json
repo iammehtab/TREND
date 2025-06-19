@@ -5,5 +5,8 @@
     "mysql2": "^3.14.1",
     "stripe": "^18.2.1"
   },
+  "scripts": {
+    "start": "node app.js"
+  },
   "type": "module"
 }
